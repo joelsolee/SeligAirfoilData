@@ -1,2 +1,10 @@
 # SeligAirfoilData
 Airfoil data in Selig format
+
+All airfoils, whereas created by author or sourced in the cloud, are used in Selig format and then saved as .dat files.
+The Selig format is a commonly used plain-text file format for storing airfoil coordinates. It was popularized by Dr. Michael Selig in the University of Illinois. https://m-selig.ae.illinois.edu/ads/coord_database.html 
+The first line includes the name or description of the airfoil and the subsequent lines, each line has two real numbers representing (x,y) coordinates of the airfoil in a given order. There is no explicit line indicating how many points there are.
+	The first coordinate line is the trailing edge on the upper surface (x≈1,y≈0 if the airfoil is normalized to unit chord). 
+	The list of points then progresses forward along the upper surface to the leading edge. 
+	It then continues backward along the lower surface, returning to the trailing edge again.
+To wrap up, airfoil data of used airfoils in this paper will be presented in Selig format, including hybrid airfoils for the transition from root to blade made original by the author in this GitHub repository
