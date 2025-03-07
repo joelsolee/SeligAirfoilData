@@ -12,5 +12,5 @@ The first line includes the name or description of the airfoil and the subsequen
 - The list of points then progresses forward along the upper surface to the leading edge. 
  
 - It then continues backward along the lower surface, returning to the trailing edge again.
-- 
+  
 More info at https://m-selig.ae.illinois.edu/ads/coord_database.html 
