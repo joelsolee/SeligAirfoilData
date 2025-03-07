@@ -7,10 +7,10 @@ The Selig format is a commonly used plain-text file format for storing airfoil c
 
 The first line includes the name or description of the airfoil and the subsequent lines, each line has two real numbers representing (x,y) coordinates of the airfoil in a given order. There is no explicit line indicating how many points there are.
 
-	The first coordinate line is the trailing edge on the upper surface (x≈1,y≈0 if the airfoil is normalized to unit chord). 
+The first coordinate line is the trailing edge on the upper surface (x≈1,y≈0 if the airfoil is normalized to unit chord). 
  
-	The list of points then progresses forward along the upper surface to the leading edge. 
+The list of points then progresses forward along the upper surface to the leading edge. 
  
-	It then continues backward along the lower surface, returning to the trailing edge again.
+It then continues backward along the lower surface, returning to the trailing edge again.
  
 To wrap up, airfoil data of used airfoils in this paper will be presented in Selig format, including hybrid airfoils for the transition from root to blade made original by the author in this GitHub repository
